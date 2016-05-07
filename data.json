@@ -1,0 +1,31 @@
+
+[
+	{
+		"id": "1",
+		"title": "Post 1",
+		"slug": "post-1",
+		"description": "Description from post 1",
+		"content": "Avoid side effects. As we've already discussed, evaluation of a template expression should have no visible side effects. The expression language itself does its part to keep us safe. We can’t assign a value to anything in a property binding expression nor use the increment and decrement operators. Of course, our expression might invoke a property or method that has side effects. Angular has no way of knowing that or stopping us. The expression could call something like getFoo(). Only we know what getFoo() does. If getFoo() changes something and we happen to be binding to that something, we risk an unpleasant experience. Angular may or may not display the changed value. Angular may detect the change and throw a warning error. Our general advice: stick to data properties and to methods that return values and do no more.",
+		"main_img": "http://modapuebla.edu.mx/imagesPost/Book2012ArteContemporaneo1.jpg",
+		"post_img": "http://modapuebla.edu.mx/imagesPost/Book2012ArteContemporaneo2.jpg",
+		"created": "2016-05-05 17:19:22",
+		"updated": "2016-05-05 17:19:22",
+		"category": "category 1",
+		"tags": ["tag 1", "tag 2", "tag 3"]
+	},
+	{
+		"id": "2",
+		"title": "Post 2",
+		"slug": "post-2",
+		"description": "Description from post 2",
+		"content": "Unfortunately, they and their related files are physically commingled in the same folder with the AppComponent. We'd prefer to separate them in their own feature areas so they can operate and evolve independently. Someday we might re-use one or the other in a different application. Someday we might load one of them dynamically only when the user chose to enter its workflow.",
+		"main_img": "http://modapuebla.edu.mx/imagesPost/Book2012ArteContemporaneo3.jpg",
+		"post_img": "http://modapuebla.edu.mx/imagesPost/Book2012ArteContemporaneo4.jpg",
+		"created": "2016-04-05 17:19:22",
+		"updated": "2016-04-05 17:19:22",
+		"category": "category 2",
+		"tags": ["tag 0", "tag 1", "tag 2"]
+
+	}
+]
+

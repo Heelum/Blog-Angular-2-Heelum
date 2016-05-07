@@ -1,0 +1,9 @@
+<h2>{{title}}</h2>
+<p>JSON</p>
+<div *ngFor="let post of posts">
+    <p>{{post.title}}</p>
+    <img [src]="post.main_img">
+    <p>{{post.description}}</p>
+    <button (click)="selectPost(post)">Ver mas</button>
+
+</div>

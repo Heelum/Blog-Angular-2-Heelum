@@ -1,0 +1,12 @@
+<div class="content" *ngIf="selectedPost">
+	<img [src]="selectedPost.post_img">
+	<h2>{{selectedPost.title}}</h2>
+	<p>Categoria {{selectedPost.category}}</p>	
+	<p>Tags: </p>	
+	<ul>
+		<li *ngFor="let tag of selectedPost.tags">{{tag}}</li>
+	</ul>
+
+	<p class="body">{{selectedPost.content}}</p>	
+</div>
+
